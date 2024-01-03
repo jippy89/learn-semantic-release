@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "cz": "cz"
+  },
+  "devDependencies": {
+    "@metahub/cz-conventional-commit": "^5.0.0",
+    "conventional-changelog-metahub": "^4.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@metahub/cz-conventional-commit"
+    }
+  }
+}
